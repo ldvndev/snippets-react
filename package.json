@@ -13,6 +13,11 @@
     "type": "git",
     "url": "https://github.com/ldvndev/snippets-reactjs-vscode"
   },
+  "keywords": [
+    "react",
+    "snippets",
+    "es6"
+  ],
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -20,19 +25,19 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets-ts.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets-ts.json"
+        "path": "./snippets/snippets.code-snippets"
       }
     ]
   }
