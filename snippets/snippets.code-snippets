@@ -1,1 +1,91 @@
-{}
+{
+  "styles": {
+    "prefix": "styled-react",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:Container} = styled.${2:div}`",
+      "  ${3}",
+      "`;",
+      ""
+    ],
+    "description": "Create ReactJS Styled Components file",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "componentFunctionalTypescript": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
+      "  return <div />;",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
+    ],
+    "description": "Create ReactJS Functional Component Typescript",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "axiosApi": {
+    "prefix": "api",
+    "body": [
+      "export import axios from 'axios';",
+      "",
+      "const api = axios.create({",
+      "  baseURL: '${1}',",
+      "});",
+      ""
+    ],
+    "description": "Create Axios Configuration File",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "importEmpty":{
+    "prefix": "im",
+    "body": "import ${1} from '${2}';",
+    "description": "Create ReactJS Import Empty",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "importWithComponent": {
+    "prefix": "irc",
+    "body": "import React, { Component } from 'react';",
+    "description": "Create ReactJS Import With Component",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "importWithUseState": {
+    "prefix": "irs",
+    "body": "import React, { useState } from 'react';",
+    "description": "Create ReactJS Import With useState",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "React: useState": {
+    "prefix": "uss",
+    "body": [
+      "const [$1, set${1/(.)/${1:/upcase}/}] = useState($2);",
+      "$3"
+     ],
+    "description": "Create ReactJS Hook useState",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+
+  "React: useEffect": {
+    "prefix": "ues",
+    "body": [
+      "useEffect(() => {",
+      "  ${1:effect}",	
+      "  return () => {",
+      "    ${2:cleanUp}",
+      "  }",
+      "}, [${3:dependency}])"
+    ],
+    "description": "Create ReactJS Hook useEffect",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+}
