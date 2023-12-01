@@ -1,0 +1,20 @@
+{
+  "name": "trigger-reactjs",
+  "displayName": "Trigger-ReactJS",
+  "description": "Set of snippets or shortcuts for creating components and configuration files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript'",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
