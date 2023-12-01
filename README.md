@@ -43,4 +43,4 @@ What you do will be **magnificent**.
 5. Push from Branch (`git push origin feature/FeatureNewSnippets`)
 6. Open a Pull Request
 
-<a href="#">Code ReactJS Snippets</a>
+<a href="https://marketplace.visualstudio.com/items?itemName=Trigger-ReactJS.trigger-reactjs">Code ReactJS Snippets</a>
