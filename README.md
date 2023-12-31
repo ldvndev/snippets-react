@@ -39,7 +39,7 @@ What you do will be **magnificent**.
 1. Fork the project
 2. Create a Branch for your Feature (`git checkout -b feature/FeatureNewSnippets`)
 3. Add your changes (`git add .`)
-4. Commit your changes (`git commit -m 'Adicionando uma Feature`)
+4. Commit your changes (`git commit -m 'Adding a new feature'`)
 5. Push from Branch (`git push origin feature/FeatureNewSnippets`)
 6. Open a Pull Request
 
